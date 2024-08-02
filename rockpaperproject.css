@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+  font-family: Arial;
+  margin:0;
+  color:white;
+}
+.game-heading{
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+}
+.move-icon{
+  width:80px;
+  height:80px;
+  cursor:pointer;
+}
+.background-border{
+  
+  height:150px;
+  border-radius: 75px;
+  border-color: white;
+  border-width: 3px;
+  background-color: black;
+  border-style: solid;
+}
+.all-images{
+  display:grid;
+  grid-template-columns:150px 150px 150px ;
+  column-gap: 15px;
+  margin-top: 30px;
+}
+.reset-button,.auto-play{
+  background-color: white;
+  padding: 6px 4px;
+  width:100px;
+  border:none;
+  cursor: pointer;
+}
